@@ -2,7 +2,6 @@ import pyautogui
 import time
 import os
 
-os.environ['DISPLAY'] = ':0'
 
 def const_work():
     while True:
@@ -11,7 +10,7 @@ def const_work():
         pyautogui.moveTo(200, 100)
         pyautogui.moveTo(200, 200)
         pyautogui.moveTo(100, 200)
-        time.sleep(10)
+        time.sleep(5)
 
 if __name__=='__main__':
     const_work()
